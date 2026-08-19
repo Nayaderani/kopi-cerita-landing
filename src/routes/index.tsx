@@ -452,7 +452,7 @@ function Index() {
 
           {/* Mobile carousel */}
           <div className="relative mt-10 md:hidden">
-            <TestimonialCard testimonial={testimonials[activeTestimonial]} />
+            <TestimonialCard testimonial={testimonials[activeTestimonial]!} />
             <div className="mt-6 flex items-center justify-center gap-4">
               <button
                 onClick={prevTestimonial}
